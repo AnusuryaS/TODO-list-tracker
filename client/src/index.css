@@ -18,12 +18,10 @@ html{
   height:100%;
 }
 
-body {
+#root{
 	background-image: url('todoimg.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  color: var(--light);
-
   background-attachment: fixed;
   background-position: center center; 
   height: 100%;
@@ -31,6 +29,7 @@ body {
 .App {
 	padding: 60px;
   margin: 0 20%;
+
 }
 
 h1 {
