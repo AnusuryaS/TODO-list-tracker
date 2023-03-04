@@ -13,6 +13,9 @@
 	box-sizing: border-box;
 
 	font-family: "Fira Sans", sans-serif;
+} 
+html{
+  height:100%;
 }
 
 body {
@@ -20,11 +23,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--light);
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-}
 
+  background-attachment: fixed;
+  background-position: center center; 
+  height: 100%;
+}
 .App {
 	padding: 60px;
   margin: 0 20%;
